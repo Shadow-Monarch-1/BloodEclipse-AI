@@ -2,6 +2,7 @@
   "name": "blood-eclipse-ai",
   "version": "1.0.0",
   "description": "BloodEclipse-AI Discord Bot",
+  "type": "module",
   "main": "index.js",
   "engines": {
     "node": ">=18"
