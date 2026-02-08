@@ -1,3 +1,5 @@
+console.log("DISCORD_TOKEN:", process.env.DISCORD_TOKEN ? "FOUND" : "MISSING");
+console.log("OPENROUTER_API_KEY:", process.env.OPENROUTER_API_KEY ? "FOUND" : "MISSING");
 // BloodEclipse-AI — Stable Version (NO CHEERIO, NO SCRAPING)
 
 import 'dotenv/config';
