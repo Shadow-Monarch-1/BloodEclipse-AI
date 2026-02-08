@@ -1,5 +1,8 @@
 // BloodEclipse-AI — Stable Version (NO CHEERIO, NO SCRAPING)
 
+console.log("DISCORD_TOKEN:", process.env.DISCORD_TOKEN ? "FOUND" : "MISSING");
+console.log("OPENROUTER_API_KEY:", process.env.OPENROUTER_API_KEY ? "FOUND" : "MISSING");
+
 import 'dotenv/config';
 import { Client, GatewayIntentBits, Partials, ActivityType } from 'discord.js';
 import fetch from 'node-fetch';
