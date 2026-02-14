@@ -1,48 +1,49 @@
 # BloodEclipse‑AI
 
-A professional, scalable Discord AI bot with:
+👾 A professional, scalable Discord AI bot with:
 
 ✅ Slash commands  
 ✅ Google Custom Search integration  
-✅ Web search + AI summaries  
+✅ AI summarization via OpenRouter  
 ✅ Image generation via Modelslab  
-✅ Savage‑roast personality  
-✅ Ready for cloud deployment (Railway)
+✅ Savage gamer personality  
+✅ Easy deployment to Railway or other Node hosts
 
 ---
 
-## 📦 Features
+## 🔧 Features
 
 | Command      | Description |
 |--------------|-------------|
 | `/ask`       | Ask the AI anything |
 | `/search`    | Web search + AI summary |
-| `/imagine`   | AI text‑to‑image |
-| `/roast`     | Savage roast reply |
+| `/imagine`   | Generate AI image |
+| `/roast`     | Savage roast response |
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Deployment
 
-1. Clone repo  
-2. Create `.env` file  
-3. Set environment variables  
-4. Push to GitHub  
-5. Deploy on Railway
+1. Clone this repository  
+2. Create a `.env` file in the root  
+3. Add your environment variables (see below)  
+4. Deploy via Railway or similar
 
 ---
 
 ## 📌 Environment Variables
 
 DISCORD_TOKEN=your_discord_token
+GOOGLE_API_KEY=your_google_api_key
+GOOGLE_CSE_ID=574078a3636f84e63
 OPENROUTER_API_KEY=your_openrouter_key
-GOOGLE_API_KEY=your_google_search_api_key
-GOOGLE_CSE_ID=your_search_engine_id
 MODELSLAB_API_KEY=your_modelslab_key
 GUILD_ID=your_discord_server_id
 
 ---
 
-## 💻 Deployment
+## 🧠 Notes
 
-Use Railway to deploy from GitHub, set your environment variables, and the bot will auto‑deploy and register slash commands.
+- Google JSON Search API returns real web search results  
+- OpenRouter AI handles summaries and bot personality  
+- Modular code makes adding features easy
