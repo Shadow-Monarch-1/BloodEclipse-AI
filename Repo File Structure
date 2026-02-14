@@ -3,6 +3,7 @@ BloodEclipse-AI/
 ├── README.md
 ├── package.json
 ├── index.js
+├── config.js
 └── utils/
     ├── googleSearch.js
     ├── openRouter.js
